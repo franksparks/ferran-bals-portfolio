@@ -4,8 +4,7 @@
     <div class="parent">
       <Home :nightMode="nightMode" />
       <About id="about" :nightMode="nightMode" />
-      <!-- <Skills id="skills" :nightMode="nightMode" /> -->
-      <Recommendation :nightMode="nightMode" />
+      <Recommendation id="recommendation" :nightMode="nightMode" />
       <Contact id="contact" :nightMode="nightMode" />
       <Footer :nightMode="nightMode" />
     </div>
@@ -28,7 +27,6 @@ export default {
     Navbar,
     Home,
     About,
-    //Skills,
     Recommendation,
     Contact,
     Footer,
@@ -45,7 +43,7 @@ export default {
     }
   },
   mounted() {
-    ["about", "contact", "skills"].forEach((l) => {
+    ["about", "contact", "recommendation"].forEach((l) => {
       if (window.location.href.includes(l)) {
         var elementPosition = document.getElementById(l).offsetTop;
         window.scrollTo({ top: elementPosition - 35, behavior: "smooth" });
