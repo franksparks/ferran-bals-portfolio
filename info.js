@@ -13,7 +13,8 @@ let info = {
   links: {
     linkedin: "https://www.linkedin.com/in/fbals/",
     github: "https://github.com/franksparks",
-    resume: "",
+    resume:
+      "https://github.com/franksparks/ferran-bals-portfolio/blob/main/src/assets/pdfs/Resume.pdf",
   },
   education: [
     {
