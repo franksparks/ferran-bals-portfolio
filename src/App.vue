@@ -16,12 +16,11 @@
 import Navbar from "./components/Navbar.vue";
 import Home from "./components/Home";
 import About from "./components/About";
-//import Skills from "./components/Skills";
 import Recommendation from "./components/Recommendation";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-import info from "../info";
+import info from "../info.js";
 
 export default {
   name: "App",
