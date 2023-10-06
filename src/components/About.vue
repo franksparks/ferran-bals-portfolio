@@ -54,15 +54,15 @@ export default {
   data() {
     return {
       education: {
-        title: "education",
+        title: "Education",
         data: info.education,
       },
       certification: {
-        title: "certification",
+        title: "Certifications",
         data: info.certification,
       },
       experience: {
-        title: "experiences",
+        title: "Experiences",
         data: info.experience,
       },
     };

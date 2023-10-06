@@ -38,6 +38,9 @@ export default {
     };
   },
   created() {
+    console.log("serviceID: " + process.env.VUE_APP_SERVICEID);
+    console.log("templateID: " + process.env.VUE_APP_TEMPLATEID);
+    console.log("userID: " + process.env.VUE_APP_USERID);
     if (this.config.use_cookies) {
       this.nightMode = this.$cookie.get("nightMode") === "true" ? true : false;
     }
