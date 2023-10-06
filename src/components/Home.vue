@@ -17,7 +17,7 @@
           <span
             class="home-title"
             :class="{ pgray: !nightMode, 'text-light': nightMode }"
-            >hello there!</span
+            >Hello there!</span
           >
           <div>
             <p v-html="description"></p>
@@ -54,13 +54,9 @@
 <script>
 import info from "../../info";
 
-import Wave from "./helpers/Wave";
-
 export default {
   name: "Home",
-  components: {
-    Wave,
-  },
+
   props: {
     nightMode: {
       type: Boolean,
