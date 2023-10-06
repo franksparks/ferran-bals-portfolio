@@ -112,7 +112,6 @@
 </template>
 
 <script>
-import config from "../../config";
 import emailjs from "emailjs-com";
 
 import Snackbar from "./helpers/Snackbar";
@@ -160,10 +159,10 @@ export default {
 
         emailjs
           .send(
-            config.emailjs.serviceID,
-            config.emailjs.templateID,
+            process.env.VUE_APP_SERVICEID,
+            process.env.VUE_APP_TEMPLATEID,
             obj,
-            config.emailjs.userID
+            process.env.VUE_APP_USERID
           )
           .then(
             (result) => {
