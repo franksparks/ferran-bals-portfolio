@@ -70,7 +70,7 @@ let info = {
     {
       name: "Aizon",
       place: "Barcelona, Spain",
-      date: "Mar, 2021 - Jul, 2012",
+      date: "Mar, 2021 - Jul, 2022",
       position: "Software Business Analyst",
       description:
         "I defined configuration specifications and software business analysis requirements, formalized them into documented specifications for stakeholders, and created UML diagrams to illustrate how the product aligned with business scenarios in the past.",
