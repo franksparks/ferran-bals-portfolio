@@ -6,7 +6,7 @@
           class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow"
           style="color: white"
         >
-          <span>© 2024 Copyright: Ferran Bals</span>
+          <span>© {{ year }} Copyright: Ferran Bals</span>
         </div>
 
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
@@ -43,6 +43,7 @@ export default {
   name: "Footer",
   data() {
     return {
+      year: new Date().getFullYear(),
       linkedin: info.links.linkedin,
       github: info.links.github,
       resume: info.links.resume,

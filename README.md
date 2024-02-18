@@ -62,4 +62,4 @@ You can reach me here:
 
 ## License
 
-- Copyright 2023 © Ferran Bals
+- Copyright © Ferran Bals

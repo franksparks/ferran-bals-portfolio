@@ -18,8 +18,18 @@ let info = {
   },
   education: [
     {
+      name: "Universitat Politècnica de Catalunya",
+      place: "Barcelona, Spain",
+      date: "Feb, 2024 - Sep, 2024",
+      degree: "Full Stack Technologies postgraduate",
+      gpa: "",
+      description:
+        "As a graduate of the Full-Stack Web Technologies program, I have acquired expertise in both front-end and back-end development, enabling me to design, manage, and implement comprehensive applications.",
+      skills: ["Software Engineering", "Diagrams"],
+    },
+    {
       name: "Universitat Oberta de Catalunya",
-      place: "Spain",
+      place: "Remote",
       date: "Sep, 2016 - July, 2023",
       degree: "Computer Engineering",
       gpa: "7.6/10.0",
@@ -53,9 +63,24 @@ let info = {
   ],
   experience: [
     {
+      name: "Quantion",
+      place: "Barcelona, Spain",
+      date: "March 2024 - Present",
+      position: "Business Analyst",
+      description:
+        "As a Business Analyst, I served as the link between business stakeholders and the team, collaborating to solve challenges and define requirements. I provided a global vision of the product and helped define acceptance criteria. I coordinated and supported the team, occasionally assisting the Product Owner in backlog maintenance.",
+      skills: [
+        "Jira",
+        "Confluence",
+        "Reporting",
+        "Requirements elicitation",
+        "Diagrams",
+      ],
+    },
+    {
       name: "Forte",
       place: "USA",
-      date: "Jul, 2022 - Present",
+      date: "Jul, 2022 - March 2024",
       position: "Project Manager",
       description:
         "Experienced Project Manager adept at leading two development teams, translating business requirements into Jira tasks, and ensuring code quality through rigorous review. Proficient in Scrum ceremonies, stakeholder collaboration, and strategic goal planning.",
