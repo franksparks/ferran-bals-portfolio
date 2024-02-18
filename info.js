@@ -43,21 +43,21 @@ let info = {
       name: "Complete Vue Developer 2023: From Zero to Mastery (Pinia, Vitest)",
       date: "Issued Feb 2023",
       description:
-        "The 'Complete Vue Developer 2023: From Zero to Mastery (Pinia, Vitest)' course equips me with comprehensive skills in Vue.js development, covering everything from the fundamentals to advanced concepts such as Pinia and Vitest, ensuring I am well-prepared to excel in Vue.js web development.",
+        "This course equipped me with comprehensive skills in Vue.js development, covering everything from the fundamentals to advanced concepts such as Pinia and Vitest, ensuring I am well-prepared to excel in Vue.js web development.",
       skills: ["CSS", "HTML", "JavaScript", "Vue.js", "Tailwind CSS"],
     },
     {
       name: "Professional Scrum Master™ I (PSM I)",
       date: "Issued Nov 2020",
       description:
-        "The Professional Scrum Master I certification validates my competence in agile project management using the Scrum methodology, demonstrating my ability to lead teams and optimize software development processes.",
+        "This certification validates my competence in agile project management using the Scrum methodology, demonstrating my ability to lead teams and optimize software development processes.",
       skills: ["Agile", "Scrum"],
     },
     {
       name: "ISTQB - International Software Testing Qualification Board - Foundation Level",
       date: "Issued Dec 2014",
       description:
-        "The ISTQB (International Software Testing Qualification Board) certification validates my knowledge and skills in software testing, including test planning, execution, and management, as well as identifying and resolving issues in software development.",
+        "This certification validates my knowledge and skills in software testing, including test planning, execution, and management, as well as identifying and resolving issues in software development.",
       skills: ["A/B testing", "Automation tests", "Test technologies"],
     },
   ],
@@ -83,7 +83,7 @@ let info = {
       date: "Jul, 2022 - March 2024",
       position: "Project Manager",
       description:
-        "Experienced Project Manager adept at leading two development teams, translating business requirements into Jira tasks, and ensuring code quality through rigorous review. Proficient in Scrum ceremonies, stakeholder collaboration, and strategic goal planning.",
+        "Experienced Project Manager leading two development teams, translating business requirements into Jira tasks, and ensuring code quality through rigorous review. Proficient in Scrum ceremonies, stakeholder collaboration, and strategic goal planning.",
       skills: [
         "Jira",
         "Confluence",
