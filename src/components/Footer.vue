@@ -6,7 +6,7 @@
           class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow"
           style="color: white"
         >
-          <span>© 2023 Copyright: Ferran Bals</span>
+          <span>© 2024 Copyright: Ferran Bals</span>
         </div>
 
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
